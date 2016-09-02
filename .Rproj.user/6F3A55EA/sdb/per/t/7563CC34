@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "<p>Copyright &copy; 2016 Skynet, Inc. All rights reserved.</p>\n<p>another line of footer info here</p>",
+    "created" : 1466289397941.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2290397419",
+    "id" : "7563CC34",
+    "lastKnownWriteTime" : 1466289890,
+    "last_content_update" : 1466289890032,
+    "path" : "C:/MyR/webtest1/footer.html",
+    "project_path" : "footer.html",
+    "properties" : {
+        "chunk_rendered_width" : "650",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

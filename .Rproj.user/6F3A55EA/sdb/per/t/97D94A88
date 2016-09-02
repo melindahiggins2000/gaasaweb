@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"My Website\"\n---\n\nHello, Website!\n\nThis is in the `index.rmd` file. here is some **bold** text.",
+    "created" : 1466289386315.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2866863081",
+    "id" : "97D94A88",
+    "lastKnownWriteTime" : 1466289929,
+    "last_content_update" : 1466289929710,
+    "path" : "C:/MyR/webtest1/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
