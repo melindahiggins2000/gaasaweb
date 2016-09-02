@@ -1,0 +1,17 @@
+name: "my-website"
+navbar:
+  title: "My Awesome Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "testKnit"
+      href: test123.html
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
