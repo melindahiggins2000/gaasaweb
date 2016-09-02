@@ -1,0 +1,9 @@
+---
+title: "About This Website"
+---
+
+More about this website. This is in the `About.rmd` file
+
+```{r, child="_sessioninfo.Rmd"}
+```
+
