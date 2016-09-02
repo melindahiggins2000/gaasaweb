@@ -1,17 +1,25 @@
 name: "gaasa-website"
 navbar:
   title: "GA ASA Website"
-  type: inverse
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "About"
+      icon: fa-info
       href: about.html
-    - text: "testKnit"
-      href: test123.html
+    - text: "Blog"
+      icon: fa-archive
+      menu:
+        - text: "Heading 1"
+        - text: "Test Post 1"
+          href: test123.html
+        - text: "Page B"
+        - text: "---------"
+        - text: "Heading 2"
 output:
   html_document:
-    theme: readable
+    theme: cerulean
     highlight: textmate
     include:
       after_body: footer.html
