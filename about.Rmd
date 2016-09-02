@@ -1,8 +1,8 @@
 ---
-title: "About This Website"
+title: "About The GA Chapter of the American Statistics Association"
 ---
 
-More about this website. This is in the `About.rmd` file
+More about the Georgia Chapter of the American Statistics Association. This is in the `About.rmd` file
 
 ```{r, child="_sessioninfo.Rmd"}
 ```

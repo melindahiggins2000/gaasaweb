@@ -1,6 +1,6 @@
-name: "my-website"
+name: "gaasa-website"
 navbar:
-  title: "My Awesome Website"
+  title: "GA ASA Website"
   left:
     - text: "Home"
       href: index.html

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "name: \"gaasa-website\"\nnavbar:\n  title: \"GA ASA Website\"\n  left:\n    - text: \"Home\"\n      href: index.html\n    - text: \"About\"\n      href: about.html\n    - text: \"testKnit\"\n      href: test123.html\noutput:\n  html_document:\n    theme: readable\n    highlight: textmate\n    include:\n      after_body: footer.html\n    css: styles.css",
+    "created" : 1466289442129.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1030593808",
+    "id" : "176A78E3",
+    "lastKnownWriteTime" : 1472826973,
+    "last_content_update" : 1472826973436,
+    "path" : "C:/MyGithub/gaasaweb/_site.yml",
+    "project_path" : "_site.yml",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

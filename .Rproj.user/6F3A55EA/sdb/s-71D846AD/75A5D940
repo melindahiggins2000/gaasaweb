@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"About The GA Chapter of the American Statistics Association\"\n---\n\nMore about the Georgia Chapter of the American Statistics Association. This is in the `About.rmd` file\n\n```{r, child=\"_sessioninfo.Rmd\"}\n```\n\n",
+    "created" : 1466289389411.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3086177292",
+    "id" : "75A5D940",
+    "lastKnownWriteTime" : 1472827021,
+    "last_content_update" : 1472827021581,
+    "path" : "C:/MyGithub/gaasaweb/about.Rmd",
+    "project_path" : "about.Rmd",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

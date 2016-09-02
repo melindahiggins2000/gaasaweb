@@ -1,7 +1,11 @@
 ---
-title: "My Website"
+title: "GA ASA Website"
 ---
 
-Hello, Website!
+Georgia Chapter of the American Statistics Association
 
 This is in the `index.rmd` file. here is some **bold** text.
+
+Links to:
+* [GA ASA Chapter Website](http://community.amstat.org/georgiachapter/home)
+* [Main ASA Website AMSTAT.ORG](http://www.amstat.org/)

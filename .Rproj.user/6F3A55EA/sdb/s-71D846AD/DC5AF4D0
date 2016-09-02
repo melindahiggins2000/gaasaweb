@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "blockquote {\n  font-style: italic\n}",
+    "created" : 1472827045001.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3371034293",
+    "id" : "DC5AF4D0",
+    "lastKnownWriteTime" : 1460390309,
+    "last_content_update" : 1460390309,
+    "path" : "C:/MyGithub/gaasaweb/styles.css",
+    "project_path" : "styles.css",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "css"
+}
