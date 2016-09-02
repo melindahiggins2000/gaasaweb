@@ -1,6 +1,7 @@
 name: "gaasa-website"
 navbar:
   title: "GA ASA Website"
+  type: inverse
   left:
     - text: "Home"
       href: index.html
