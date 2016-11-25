@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -165,6 +168,100 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.9em;
+  padding-left: 5px;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -213,7 +310,13 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="http://www.google.com">
+    <span class="fa fa-question fa-lg"></span>
+     
+    right
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -228,10 +331,12 @@ $(document).ready(function () {
 </div>
 
 
+<div id="about-page" class="section level2">
+<h2>About page</h2>
 <p>More about the Georgia Chapter of the American Statistics Association. This is in the <code>About.rmd</code> file</p>
 <p>Session information:</p>
 <pre class="r"><code>sessionInfo()</code></pre>
-<pre><code>## R version 3.3.1 (2016-06-21)
+<pre><code>## R version 3.3.2 (2016-10-31)
 ## Platform: x86_64-w64-mingw32/x64 (64-bit)
 ## Running under: Windows 10 x64 (build 14393)
 ## 
@@ -246,16 +351,18 @@ $(document).ready(function () {
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] magrittr_1.5       assertthat_0.1     formatR_1.4       
-##  [4] tools_3.3.1        htmltools_0.3.5    yaml_2.1.13       
-##  [7] tibble_1.2-12      Rcpp_0.12.6        stringi_1.1.1     
-## [10] rmarkdown_1.0.9010 knitr_1.14         stringr_1.1.0.9000
-## [13] digest_0.6.10      evaluate_0.9</code></pre>
+##  [1] magrittr_1.5    assertthat_0.1  tools_3.3.2     htmltools_0.3.5
+##  [5] yaml_2.1.13     tibble_1.2-12   Rcpp_0.12.7     stringi_1.1.2  
+##  [9] rmarkdown_1.1   knitr_1.15      stringr_1.1.0   digest_0.6.10  
+## [13] evaluate_0.10</code></pre>
+</div>
 
 <p>Copyright &copy; 2016 Skynet, Inc. All rights reserved.</p>
 <p>another line of footer info here</p>
 
 
+</div>
+</div>
 
 </div>
 

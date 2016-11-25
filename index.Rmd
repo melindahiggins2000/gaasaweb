@@ -2,9 +2,13 @@
 title: "GA ASA Website"
 ---
 
-Georgia Chapter of the American Statistics Association
+## Header 1 - Intro
+
+Georgia Chapter of the American Statistics Association - add some text here.
 
 This is in the `index.rmd` file. here is some **bold** text.
+
+## Header 2 - Links
 
 Links to:
 

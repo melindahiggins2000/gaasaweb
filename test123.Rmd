@@ -1,8 +1,5 @@
 ---
 title: "test123"
-author: "Princess Elsa"
-date: "April 12, 2016"
-output: word_document
 ---
 
 ```{r setup, include=FALSE}

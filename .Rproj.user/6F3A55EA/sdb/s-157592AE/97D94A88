@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"GA ASA Website\"\n---\n\n## Header 1 - Intro\n\nGeorgia Chapter of the American Statistics Association - add some text here.\n\nThis is in the `index.rmd` file. here is some **bold** text.\n\n## Header 2 - Links\n\nLinks to:\n\n* [GA ASA Chapter Website](http://community.amstat.org/georgiachapter/home)\n* [Main ASA Website AMSTAT.ORG](http://www.amstat.org/)\n\n",
+    "created" : 1466289386315.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "8415183",
+    "id" : "97D94A88",
+    "lastKnownWriteTime" : 1480090103,
+    "last_content_update" : 1480090103830,
+    "path" : "C:/MyGithub/gaasaweb/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
