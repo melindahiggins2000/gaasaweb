@@ -19,7 +19,7 @@ navbar:
         - text: "Heading 2"
   right:
     - text: "right"
-      icon: fa-question fa-lg
+      icon: fa-question
       href: http://www.google.com
 output:
   html_document:
