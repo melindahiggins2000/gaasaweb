@@ -17,6 +17,9 @@ navbar:
         - text: "Page B"
         - text: "---------"
         - text: "Heading 2"
+  right:
+    - icon: fa-question fa-lg
+      href: http://www.google.com
 output:
   html_document:
     theme: cerulean
